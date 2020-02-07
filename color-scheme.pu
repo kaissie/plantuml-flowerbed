@@ -1,0 +1,69 @@
+@startuml
+
+!define base #EFFFE9
+!define accent #2EC4B6
+
+!define black #011627
+!define white #FFFFF3
+
+'Base'
+skinparam {
+  shadowing false
+  backgroundColor white
+  Arrow {
+    Color     black
+    FontColor black
+  }
+}
+'Activity'
+skinparam activity {
+  FontColor       black
+  BackgroundColor base
+  BorderColor     accent
+  StartColor      black
+  EndCOlor        black
+  BarColor        black
+  Diamond {
+    FontColor       black
+    BackgroundColor base
+    BorderColor     accent
+  }
+}
+
+'usecase'
+skinparam usecase {
+  BackgroundColor base
+  BorderColor     #A80036
+}
+'class'
+skinparam class {
+  BackgroundColor base
+  BorderColor     #A80036
+}
+skinparam package {
+  BackgroundColor #FEFECE
+  BorderColor     #A80036
+}
+skinparam stereotype {
+}
+
+'component'
+skinparam component {
+
+}
+
+'note'
+skinparam note {
+
+}
+
+'state'
+skinparam state {
+
+}
+
+'sequence'
+skinparam sequence {
+
+}
+@enduml
