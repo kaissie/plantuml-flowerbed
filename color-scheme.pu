@@ -14,6 +14,16 @@ skinparam {
     Color     black
     FontColor black
   }
+  Actor {
+    FontColor black
+    BackgroundColor base
+    BorderColor     accent
+  }
+  Rectangle {
+    FontColor black
+    BackgroundColor white
+    BorderColor     black
+  }
 }
 'Activity'
 skinparam activity {
@@ -32,8 +42,9 @@ skinparam activity {
 
 'usecase'
 skinparam usecase {
+  FontColor       black
   BackgroundColor base
-  BorderColor     #A80036
+  BorderColor     accent
 }
 'class'
 skinparam class {
