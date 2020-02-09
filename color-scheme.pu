@@ -70,7 +70,11 @@ skinparam note {
 
 'state'
 skinparam state {
-
+  FontColor       black
+  BackgroundColor base
+  BorderColor     accent
+  StartColor      black
+  EndCOlor        black
 }
 
 'sequence'
