@@ -1,6 +1,6 @@
 
 @startuml
-!include color-scheme.pu
+!include ../color-scheme.pu
 'Activity'
 start
 :alarm rings;

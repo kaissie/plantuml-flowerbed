@@ -1,5 +1,5 @@
 @startuml
-!include color-scheme.pu
+!include ../color-scheme.pu
 
 scale 600 width
 
