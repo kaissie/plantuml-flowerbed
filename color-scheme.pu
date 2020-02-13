@@ -79,6 +79,15 @@ skinparam state {
 
 'sequence'
 skinparam sequence {
-
+  ArrowColor accent
+  LifeLine {
+    BackgroundColor white
+    BorderColor     accent
+  }
+  Participant {
+    FontColor black
+    BackgroundColor base
+    BorderColor     accent
+  }
 }
 @enduml

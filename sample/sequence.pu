@@ -1,0 +1,20 @@
+@startuml
+!include ../color-scheme.pu
+
+
+User -> A: DoWork
+activate A
+
+A -> A: Internal call
+activate A
+
+A -> B: << createRequest >>
+activate B
+
+B --> A: RequestCreated
+destroy B
+deactivate A
+A -> User: Done
+deactivate A
+
+@enduml
