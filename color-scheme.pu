@@ -60,7 +60,25 @@ skinparam stereotype {
 
 'component'
 skinparam component {
-
+  FontColor       black
+  BackgroundColor base
+  BorderColor     accent
+}
+skinparam database {
+  BackgroundColor white
+  BorderColor     black
+}
+skinparam cloud {
+  BackgroundColor white
+  BorderColor     black
+}
+skinparam package {
+  BackgroundColor white
+  BorderColor     black
+}
+skinparam interface {
+  BackgroundColor white
+  BorderColor     black
 }
 
 'note'
