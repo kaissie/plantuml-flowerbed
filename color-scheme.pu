@@ -3,6 +3,10 @@
 !define base #EFFFE9
 !define accent #2EC4B6
 
+!define green #5dd39e
+!define violet #a5668b
+!define cyan #06aed5
+
 !define black #011627
 !define white #FFFFF3
 
@@ -49,13 +53,16 @@ skinparam usecase {
 'class'
 skinparam class {
   BackgroundColor base
-  BorderColor     #A80036
+  BorderColor     accent
 }
 skinparam package {
   BackgroundColor #FEFECE
   BorderColor     #A80036
 }
 skinparam stereotype {
+  CBackgroundColor green
+  ABackgroundColor cyan
+  IBackgroundColor violet
 }
 
 'component'
